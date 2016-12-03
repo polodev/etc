@@ -1,12 +1,7 @@
 ####To start MongoDB
 ``` 
 	net start mongodb 
-``` or 
 ``` 
-mongodb 
-```
-that willl start mongodb shell
-
 ####To show all database
 ``` 
 show dbs 
