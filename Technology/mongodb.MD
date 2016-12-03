@@ -1,6 +1,6 @@
 ####To start MongoDB
 ``` 
-	net start mongodb 
+	net start mongodb or mongodb
 ``` 
 ####To show all database
 ``` 
