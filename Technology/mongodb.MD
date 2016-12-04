@@ -42,59 +42,124 @@ show collections
 db.<collectionName>.insert({key : "value"}, {key : "value"})
 ```
 
-####To 
-``` Hello ```
+####To show all entry   
+``` 
+db.<collectionName>.find()
+```    
 
-####To 
-``` Hello ```
+####To show all entry object style
+``` 
+db.<collectionName>.find().pretty()
+```    
 
-####To 
-``` Hello ```
+####To update collection   
+update function is used. It has 2 arguments. first argument for searching 2nd argument for setting value  
+``` 
+db.<collectionName>.update({firstName : 'john'}, {firstName : 'jane', lastName : 'doe', 'country' : 'India'})
+```    
 
-####To 
-``` Hello ```
+####To update a row when key is not exist    
+``` 
+db.<collectionName>.update({searching key value},  {$set : {gender : "Male"}})
+```   
+`$set` variable used for added new property to the entry  
 
-####To 
-``` Hello ```
+####To Make property incremental    
+``` 
+db.<collectionName>.update({searching key value},  {$inc : {age : 44}})
+```    
+`$inc` make property incremental
 
-####To 
-``` Hello ```
+####To remove a property from entry    
+``` 
+db.<collectionName>.update({searching key value},  {$unset : {age : 1}})
+```   
+Here age = 1 I wrote because without value it shows error.  `$unset` remove property for entry
 
-####To 
-``` Hello ```
+#### `upsert : true` is in third argument of update method. It tells if search is not matched it will be new entry.  
+``` 
+db.collection.update(
+   <query>,
+   <update>,
+   {
+     upsert: <boolean>,
+     multi: <boolean>,
+     writeConcern: <document>
+   }
+)
+```    
 
-####To 
-``` Hello ```
+####To rename propery name of entries    
+``` 
+db.<collectionName>.update({searching key value},  {$rename: { <field1>: <newName1>, <field2>: <newName2>, ... } })
+```    
 
-####To 
-``` Hello ```
+####To remove entry from collections    
+``` 
+db.collection.remove({name : 'john'})
+```    
 
-####To 
-``` Hello ```
+####To delete only first occurrence     
+``` 
+db.collection.remove({name : 'john'} , {justOne : true})
+```    
 
-####To 
-``` Hello ```
+####To find collections   
+``` 
+db.<collectionName>.find({firstName : 'john'})
+```    
 
-####To 
-``` Hello ```
+####To find collection by multiple arguments
+``` 
+db.<collectionName>.find($or : [{firstName : 'john'}, {country : 'india'}])
 
-####To 
-``` Hello ```
+```    
+`$or` for multiple argument. Here array contain all arguments; 
 
-####To 
-``` Hello ```
+####$lt & $gt
+``` 
+db.<collectionName>.find( { field: { $gt: value1, $lt: value2 } } );
+db.<collectionName>.find( { age: { $lt: 40} } );
+```   
+gt refer to greater than and lt refer to less than.    
 
-####To 
-``` Hello ```
+####To sort
+``` 
+db.<collectionName>.find().sort();
+```    
 
-####To 
-``` Hello ```
+####To
+``` 
+Hello 
+```    
 
-####To 
-``` Hello ```
+####To
+``` 
+Hello 
+```    
 
-####To 
-``` Hello ```
+####To
+``` 
+Hello 
+```    
 
+####To
+``` 
+Hello 
+```    
 
+####To
+``` 
+Hello 
+```    
+
+####To
+``` 
+Hello 
+```    
+
+####To
+``` 
+Hello 
+```    
 
