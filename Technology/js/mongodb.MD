@@ -1,6 +1,10 @@
 ####To start MongoDB
 ``` 
-	net start mongodb or mongodb
+	net start mongodb or mongod
+``` 
+####To use mongo on shell
+``` 
+  mongo
 ``` 
 ####To show all database
 ``` 
@@ -125,41 +129,28 @@ gt refer to greater than and lt refer to less than.
 
 ####To sort
 ``` 
-db.<collectionName>.find().sort();
+db.<collectionName>.find().sort({lastName : 1});
+db.<collectionName>.find().sort({lastName : -1}).pretty();
+db.<collectionName>.find({filter}).limit(4).sort({lastName : -1}).pretty();
 ```    
 
-####To
+####To Count
 ``` 
-Hello 
+db.<collectionName>.find().count();
+
 ```    
 
-####To
+####To iterate 
 ``` 
-Hello 
+db.<collectionName>.find().forEach((doc) => print("collection name is " + doc.firstName + " " + doc.lastName))
 ```    
 
-####To
+####To Delete collection   
 ``` 
-Hello 
+db.<collectionName>.drop();
 ```    
 
-####To
+####To delete current Database
 ``` 
-Hello 
+db.dropDatabase();
 ```    
-
-####To
-``` 
-Hello 
-```    
-
-####To
-``` 
-Hello 
-```    
-
-####To
-``` 
-Hello 
-```    
-
