@@ -95,7 +95,7 @@ public function customer() {
 	return $this.belongsTo('App\Customer');
 }
 //Model //Customer.php
-public function order () {
+public function orders () {
 	return $this->hasMany('App\Order');
 }
 //after relationship
