@@ -35,7 +35,7 @@ delete > delete a item
 ~~~~   
 	type="hidden" name="_method" value="DELETE"
 ~~~~   
-//all code    
+all code    
 ~~~~
 Route::get('/', function () {
 	echo "hello laravel";
