@@ -52,7 +52,7 @@ Route::post('/hello', function ) { //put, delete
 
 ###Artisan   
 ~~~~   
-php artisan server
+php artisan serve
 return view('welcome')
 php artisan make:model Customer
 php artisan make:controller CustomerController
