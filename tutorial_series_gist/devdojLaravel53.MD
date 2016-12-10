@@ -91,11 +91,11 @@ Route::get('/orders', function () {
 	}
 })
 //Model //Order.php
-public function Customer() {
+public function customer() {
 	return $this.belongsTo('App\Customer');
 }
-//Model //Customer
-public function orders () {
+//Model //Customer.php
+public function order () {
 	return $this->hasMany('App\Order');
 }
 //after relationship
