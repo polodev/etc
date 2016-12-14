@@ -7,19 +7,22 @@
 ###mobx    
 ###react-router    
 ###sentry    
-###redux thunk    
-###redux saga    
-###redux sauce    
+#####redux thunk    
+#####redux saga    
+#####redux sauce    
 ###react native    
-###react native elements    
-###react native image picker    
-###react-native-router-flux    
+#####react native elements    
+#####react native image picker    
+#####react-native-router-flux    
 ###facebook yoga   
-###babel   
-###webpack    
-###dispatcher   
-###reducer    
-###action    
-###pure function     
-### Jest    
-### Facebook Accountkit        
+#####babel   
+#####webpack    
+#####dispatcher   
+#####reducer    
+#####action    
+#####pure function     
+###Jest    
+###Facebook Accountkit        
+###GrphQL
+#####Grphhene (for python)
+###Relay
