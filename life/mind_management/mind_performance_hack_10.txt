@@ -18,6 +18,8 @@
 4 - sailboat
 5 - hooks, pulley (copy call)
 6 - pipe, golf club, lasso
-7 - axe, boomerang, schythe(siTH)
+7 - axe, boomerang, scythe(siTH)
 8 - hour glass, snowman
 9 - flag, tadepole
+
+#hack 3 - make lots of little journey
