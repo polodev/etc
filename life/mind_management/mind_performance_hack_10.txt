@@ -1,0 +1,23 @@
+# Hack 1 - Remembering 10 things
+1 gun
+2 shoe
+3 tree
+4 door
+5 hive
+6 sticks
+7 heaven
+8 gate
+9 wine
+10 hen
+
+#hack 2 - Use the number shape system
+0 - black hole, tire, donut
+1 - pencil, candle
+2 - swan
+3 - heart, butterfly
+4 - sailboat
+5 - hooks, pulley (copy call)
+6 - pipe, golf club, lasso
+7 - axe, boomerang, schythe(siTH)
+8 - hour glass, snowman
+9 - flag, tadepole
