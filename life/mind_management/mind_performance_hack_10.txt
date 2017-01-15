@@ -22,4 +22,5 @@
 8 - hour glass, snowman
 9 - flag, tadepole
 
-#hack 3 - make lots of little journey
+#hack 3 - make lots of little journey (memory palace)
+
