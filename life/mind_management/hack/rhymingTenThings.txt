@@ -1,0 +1,10 @@
+1 gun
+2 shoe
+3 tree
+4 door
+5 hive
+6 sticks
+7 heaven
+8 gate
+9 wine
+10 hen
