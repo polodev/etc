@@ -2,6 +2,7 @@
 ###itunes connect (https://itunesconnect.apple.com/WebObjects/iTunesConnect.woa/ra/ng/app)
 * bundle identity (getting from xcode general tab)
 * app id (to make a app id there is link beneath the app id selection)    
+
 ####apple developer account (https://developer.apple.com/account/ios/certificate/?teamId=ZR3WVAEZC6)   
 * making developer and distribution provisioning profile for certain app id.
 * download those certificate and if you double click on this that will added to the keychain
