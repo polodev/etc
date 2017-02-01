@@ -5,6 +5,7 @@
 ####apple developer account (https://developer.apple.com/account/ios/certificate/?teamId=ZR3WVAEZC6)   
 * making developer and distribution provisioning profile for certain app id.
 * download those certificate and if you double click on this that will added to the keychain
+
 ####Xcode    
 * changed bundle according itunes connect bundle id
 * in build setting release will be distribution
@@ -12,5 +13,6 @@
 * Product > managae scheme > edit scheme > will be edit scheme (command + shift + <)
 * instate of simulator select generic ios device or any real device
 * Product > archive it will make archive and after succefull archiving I will get upload option to itunes connect
+
 ####Uploading new build
 * just have to change version in xcode general setting 
